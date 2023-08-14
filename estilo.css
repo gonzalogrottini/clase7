@@ -1,0 +1,52 @@
+.cajas
+{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+  
+}
+.caja1
+{
+   
+background-color: aqua;
+
+}
+.caja2
+{
+    padding: 20px;
+    height:  20px;
+    background-color: blueviolet;
+}
+.caja3
+{
+    padding: 20px;
+    height:  20px;
+    background-color: blue;
+}
+.caja4
+{
+    padding: 20px;
+    height:  20px;
+    background-color: brown;
+}
+.caja1, .caja2,.caja3,.caja4
+{
+    padding: 20px;
+    height:  20px;
+    width: 100%;
+}
+@media (min-width: 768px)
+{
+    .cajas
+    {
+      grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1024px)
+{
+    .cajas
+    {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}
